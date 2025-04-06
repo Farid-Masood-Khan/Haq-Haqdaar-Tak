@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Blue circular background -->
+  <circle cx="100" cy="100" r="100" fill="#1a237e" />
+  
+  <!-- Red curved line (half circle) -->
+  <path d="M100,30 A70,70 0 0,1 170,100" stroke="#f44336" stroke-width="10" fill="none" stroke-linecap="round" />
+  
+  <!-- Colorful star-shaped people in center -->
+  <g transform="translate(100, 100) scale(0.5)">
+    <!-- Green person -->
+    <circle cx="-20" cy="-20" r="10" fill="#4caf50" />
+    <path d="M-20,-10 L-20,20 M-35,0 L-5,0" stroke="#4caf50" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Blue person -->
+    <circle cx="0" cy="20" r="10" fill="#03a9f4" />
+    <path d="M0,30 L0,60 M-15,40 L15,40" stroke="#03a9f4" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Orange person -->
+    <circle cx="-30" cy="10" r="10" fill="#ff9800" />
+    <path d="M-30,20 L-30,50 M-45,30 L-15,30" stroke="#ff9800" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Purple person -->
+    <circle cx="30" cy="10" r="10" fill="#9c27b0" />
+    <path d="M30,20 L30,50 M15,30 L45,30" stroke="#9c27b0" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Red person -->
+    <circle cx="20" cy="-20" r="10" fill="#f44336" />
+    <path d="M20,-10 L20,20 M5,0 L35,0" stroke="#f44336" stroke-width="6" stroke-linecap="round" />
+  </g>
+  
+  <!-- Arabic Text (simulated) - in actual implementation would be proper Arabic -->
+  <text x="100" y="160" fill="white" font-family="Arial" font-size="12" text-anchor="middle" opacity="0.8">حق حقدار تک</text>
+</svg>

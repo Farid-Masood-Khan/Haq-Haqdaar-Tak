@@ -1,0 +1,37 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c2bad" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#2c2bad" stop-opacity="0.9"/>
+    </linearGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1.5" fill="#ffffff" fill-opacity="0.3"/>
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#dots)"/>
+      <rect width="100" height="1" fill="#ffffff" fill-opacity="0.2"/>
+      <rect width="1" height="100" fill="#ffffff" fill-opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background with gradient -->
+  <rect width="100%" height="100%" fill="url(#heroGradient)"/>
+  
+  <!-- Grid overlay -->
+  <rect width="100%" height="100%" fill="url(#grid)" fill-opacity="0.3"/>
+  
+  <!-- Abstract shapes -->
+  <circle cx="100" cy="180" r="300" fill="#ffffff" fill-opacity="0.05"/>
+  <circle cx="1800" cy="900" r="400" fill="#ffffff" fill-opacity="0.05"/>
+  
+  <!-- Subtle pattern -->
+  <path d="M0,192 C250,150 350,400 500,300 C650,200 700,400 850,350 C1000,300 1150,200 1300,250 C1450,300 1550,150 1700,200 C1850,250 1920,150 1920,150 L1920,1080 L0,1080 Z" fill="#ffffff" fill-opacity="0.07"/>
+  
+  <text x="960" y="540" font-family="Arial" font-size="18" text-anchor="middle" fill="white" fill-opacity="0.5">
+    Haq Haqdaar Tak - Food Distribution & Community Support
+  </text>
+  
+  <text x="960" y="1060" font-family="Arial" font-size="14" text-anchor="middle" fill="white" fill-opacity="0.3">
+    Serving communities in Lahore and Sahiwal
+  </text>
+</svg>
